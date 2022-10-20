@@ -1,0 +1,57 @@
+#mydiv {
+    background-color: aqua;
+    border: 2px solid black;
+    width: 200px;
+}
+
+#mydiv1 {
+    border: 2px solid black;
+    background-image: url(../img/bg2.jpg);
+    background-size: 100% 100%;
+    margin: 20px;
+    padding: 15px;
+}
+
+#mydiv2 {
+    border: 2px solid aqua;
+    background-image: url(../img/logo.jpg);
+    background-repeat: -x;
+    margin: 20px;
+    padding: 15px;
+    color: blue;
+}
+
+.container {
+    display: flex;
+}
+
+.container div {
+    flex: 1
+}
+
+#div1 {
+    border: 8px solid black;
+    margin-left: -20px;
+    margin-right: 150px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    padding-left: 30px;
+    font-size: 40px;
+}
+
+#h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+
+#p1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+}
+
+#div2 {
+    background-image: url(../img/hw1.jpg);
+    background-size: cover;
+    margin-top: -10px;
+}
