@@ -204,3 +204,93 @@
     padding-left: 110px;
     padding-right: 110px;
 }
+
+.contain {
+    display: flex;
+    margin-top: 100px;
+}
+
+.contain div {
+    flex: 1 1;
+}
+
+#hw5a {
+    flex: 2 1;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 27px;
+    text-align: left;
+    margin-top: -40px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+
+#hw5b {
+    color: white;
+    border-bottom: 2px solid white;
+    text-align: left;
+    margin-bottom: 30px;
+    font-family: 'Lato', sans-serif;
+    margin-right: 40px;
+    padding-left: 20px;
+}
+
+#hw5c {
+    color: white;
+    border-bottom: 2px solid white;
+    text-align: left;
+    margin-bottom: 30px;
+    font-family: 'Lato', sans-serif;
+    margin-right: 40px;
+}
+
+#hw5d {
+    color: white;
+    border-bottom: 2px solid white;
+    text-align: left;
+    margin-bottom: 30px;
+    font-family: 'Lato', sans-serif;
+    margin-right: 40px;
+}
+
+#hw5h1 {
+    font-weight: 400;
+}
+
+#span1 {
+    font-weight: 300;
+    font-style: italic;
+}
+
+#hw5h2 {
+    font-weight: 300;
+    font-size: 40px;
+}
+
+#hw5h3 {
+    font-weight: 300;
+    font-size: 40px;
+}
+
+#hw5h4 {
+    font-weight: 300;
+    font-size: 40px;
+}
+
+#hw5p1 {
+    font-weight: 200;
+    font-size: 25px;
+    padding-right: 2px;
+}
+
+#hw5p2 {
+    font-weight: 200;
+    font-size: 25px;
+    padding-right: 2px;
+}
+
+#hw5p3 {
+    font-weight: 200;
+    font-size: 25px;
+}
