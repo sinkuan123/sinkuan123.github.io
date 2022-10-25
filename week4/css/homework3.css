@@ -1,0 +1,46 @@
+.container {
+    display: flex;
+}
+
+.container div {
+    flex: 1;
+}
+
+#hw3a {
+    flex: 1.5 1;
+    background-image: url(../img/hw3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: -10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#hw3b {
+    border: 8px solid black;
+    text-align: right;
+    font-family: 'Roboto', sans-serif;
+    padding: 30px;
+    padding-right: 50px;
+    margin-right: -20px;
+    margin-top: 150px;
+    margin-bottom: 100px;
+    margin-left: 120px;
+    font-size: 13px;
+}
+
+#hw3h1 {
+    font-size: 50px;
+}
+
+#hw3p1 {
+    font-size: 19px;
+}
+
+#hw3p2 {
+    font-size: 19px;
+}
+
+#hw3p3 {
+    font-size: 19px;
+}

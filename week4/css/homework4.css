@@ -1,0 +1,52 @@
+.container {
+    display: flex;
+}
+
+.container div {
+    flex: 1;
+}
+
+#body4 {
+    background-color: black;
+}
+
+#hw4a {
+    margin-top: 30px;
+    border: 2px solid white;
+    border-top: none;
+    border-bottom: none;
+    margin-left: 50px;
+    font-family: 'Lato', sans-serif;
+    font-size: 28px;
+    text-align: center;
+    padding-top: 110px;
+    padding-left: 110px;
+    padding-right: 110px;
+}
+
+#hw4h1 {
+    color: white;
+    font-style: italic;
+    font-weight: 400;
+}
+
+#hw4p1 {
+    color: white;
+    font-weight: 100;
+
+}
+
+#hw4p2 {
+    color: white;
+    font-weight: 100;
+}
+
+#hw4b {
+    margin-top: 30px;
+    border-right: 2px solid white;
+    margin-right: 50px;
+    text-align: center;
+    padding-top: 30px;
+    padding-left: 110px;
+    padding-right: 110px;
+}
