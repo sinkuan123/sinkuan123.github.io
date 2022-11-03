@@ -1,0 +1,95 @@
+.item1 {
+    text-align: left;
+    grid-area: logo;
+}
+
+.item2 {
+    grid-area: menu;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 20px;
+}
+
+.item2 a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.item3 {
+    position: relative;
+    grid-area: imageslideshow;
+}
+
+.item3 h1 {
+    position: absolute;
+    width: 100%;
+    top: 20%;
+    text-align: center;
+}
+
+.item4 {
+    text-align: center;
+    padding: 20px 0;
+    grid-area: feat1;
+}
+
+.item5 {
+    text-align: center;
+    padding: 20px 0;
+    grid-area: feat2;
+}
+
+.item6 {
+    text-align: center;
+    padding: 20px 0;
+    grid-area: feat3;
+}
+
+.item7 {
+    text-align: center;
+    padding: 20px 0;
+    grid-area: sidebar;
+    font-size: 20px;
+}
+
+.item7 a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+.item8 {
+    font-size: 10px;
+    text-align: center;
+    padding: 20px 0;
+    grid-area: textcontent;
+}
+
+.item9 {
+    border: 5px solid black;
+    text-align: center;
+    padding: 20px 0;
+    grid-area: footer;
+}
+
+.container {
+    display: grid;
+    grid-template-areas:
+        'logo logo menu menu menu menu'
+        'imageslideshow imageslideshow imageslideshow imageslideshow imageslideshow imageslideshow'
+        'imageslideshow imageslideshow imageslideshow imageslideshow imageslideshow imageslideshow'
+        'imageslideshow imageslideshow imageslideshow imageslideshow imageslideshow imageslideshow'
+        'feat1 feat1 feat2 feat2 feat3 feat3'
+        'feat1 feat1 feat2 feat2 feat3 feat3'
+        'sidebar sidebar textcontent textcontent textcontent textcontent'
+        'sidebar sidebar textcontent textcontent textcontent textcontent'
+        'sidebar sidebar textcontent textcontent textcontent textcontent'
+        'sidebar sidebar textcontent textcontent textcontent textcontent'
+        'footer footer footer footer footer footer';
+    gap: 10px;
+    padding: 10px;
+}
