@@ -191,7 +191,7 @@ p {
 
 .service2d p {
     margin: 15px;
-    font-size: 13px;
+    font-size: 12px;
 }
 
 .service2d div {
@@ -204,6 +204,7 @@ p {
     margin-top: 200px;
     padding-bottom: 50px;
     background-color: rgb(236, 234, 255);
+    text-align: center;
 }
 
 .price1 {
@@ -248,28 +249,60 @@ p {
     background-color: white;
     border: 1px solid blue;
     border-radius: 32px;
-    padding: 10px 30px;
+    padding: 15px 30px;
 }
 
-.pricebtn2 {
+.pricebtn1:hover {
     color: white;
     border: none;
     background-image: url(../../img/Rectangle\ 8@2x.png);
-    background-size: contain;
-    background-repeat: no-repeat;
+    background-size: cover;
     background-position: center;
-    padding: 8px 30px;
+    padding: 15px 30px;
     border-radius: 32px;
+}
+
+.dots {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+
+.dot {
+    border: 1px solid black;
+    height: 10px;
+    width: 10px;
+    background-color: rgb(236, 234, 255);
+    border-radius: 50%;
+    display: inline-block;
+    margin: 5px;
+}
+
+.dot:hover {
+    border: none;
+    background-color: royalblue;
+    width: 20px;
+    height: 20px;
 }
 
 .footer {
     position: relative;
     margin-top: 100px;
+    padding-bottom: 50px;
+    background-image: url(../../img/Bg\ Shape\ footer\ 2@2x.png), url(../../img/Bg\ Shape\ footer\ 1@2x.png);
+    background-repeat: no-repeat, no-repeat;
+    background-position-x: 60%, 90%;
+    background-position-y: 20%, 30%;
 }
 
 .footer1 {
     justify-content: center;
     text-align: center;
+}
+
+.footer1 p {
+    color: royalblue;
 }
 
 .footer1 h7 {
@@ -299,18 +332,14 @@ input {
 }
 
 .footer2 {
-    padding-top: 50px;
-    padding-bottom: 100px;
-    background-color: blue;
     color: white;
-    margin-top: 100px;
+    padding-top: 500px;
     display: flex;
-    justify-content: center;
 }
 
 .footer2 div {
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 60px;
+    margin-right: 60px;
 }
 
 .footer2 a {
@@ -320,10 +349,10 @@ input {
     padding: 10px;
 }
 
-.footer2 img {
+.footicon img {
     width: 20px;
     height: 20px;
-    padding: 20px;
+    padding: 10px;
 }
 
 .stayintouch {
@@ -342,4 +371,12 @@ input {
     display: flex;
     align-items: top;
     margin: 0px;
+}
+
+.contact img {
+    width: 20px;
+    height: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 5px;
 }
