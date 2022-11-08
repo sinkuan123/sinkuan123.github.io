@@ -1,0 +1,345 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    max-width: 1600px;
+    margin: auto;
+}
+
+p {
+    font-weight: 200;
+}
+
+.header {
+    background-image: url(../../img/Bg\ Shape@2x.png);
+    background-size: contain;
+    background-position: top right;
+    background-repeat: no-repeat;
+}
+
+.header1 {
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    font-size: 10px;
+}
+
+.logo h1 {
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+.header2 {
+    display: block;
+    display: flex;
+    justify-content: space-around;
+}
+
+.header2 h3 {
+    font-weight: 400;
+    font-size: 40px;
+    margin-bottom: 0px;
+}
+
+.header2 strong {
+    font-size: 50px;
+}
+
+.header2 p {
+    margin-top: 0px;
+    font-size: 20px;
+}
+
+.headbtn1 {
+    background-image: url(../../img/Rectangle\ 8@2x.png);
+    background-size: cover;
+    border: none;
+    color: white;
+    padding: 15px 50px;
+    border-radius: 25px;
+}
+
+.headicon {
+    padding-top: 180px;
+}
+
+.headicon img {
+    padding-top: 40px;
+}
+
+.heading {
+    position: relative;
+    margin-top: 50px;
+}
+
+.mouse {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    margin-right: -100px;
+}
+
+.headbtn2 {
+    display: block;
+    border-radius: 50%;
+    padding: 10px 15px;
+    border: none;
+    background-color: white;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.headimg {
+    margin-right: 50px;
+}
+
+.intro {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.whoweare {
+    background-image: url(../../img/who\ we\ are\ background@2x.png);
+    background-size: cover;
+    background-position: right;
+    margin-left: 100px;
+}
+
+.intro h3 {
+    color: royalblue;
+    font-weight: 300;
+    margin-bottom: 0px;
+}
+
+.intro h1 {
+    margin-top: 0px;
+    font-size: 50px;
+}
+
+.service {
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+
+.service1 {
+    margin-left: 200px;
+}
+
+.service1 h3 {
+    color: royalblue;
+    font-weight: 300;
+    margin-bottom: 0px;
+}
+
+.service1 h1 {
+    margin-top: 0px;
+    font-size: 50px;
+}
+
+.service2 {
+    padding-left: 150px;
+    background-image: url(../../img/background@2x.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    display: flex;
+    justify-content: space-around;
+}
+
+.service2d {
+    width: 400px;
+    height: 420px;
+    margin-right: 100px;
+    margin-top: 50px;
+    position: relative;
+    padding: 10px;
+    border: none;
+    background-color: white;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 32px;
+
+}
+
+.service2d img {
+    margin: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.service2d h3 {
+    margin: 15px;
+    font-size: 20px;
+}
+
+.service2d p {
+    margin: 15px;
+    font-size: 13px;
+}
+
+.service2d div {
+    position: absolute;
+    right: 30px;
+    bottom: 20px;
+}
+
+.price {
+    margin-top: 200px;
+    padding-bottom: 50px;
+    background-color: rgb(236, 234, 255);
+}
+
+.price1 {
+    padding-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-align: center;
+}
+
+.price1 p {
+    color: royalblue;
+    margin-bottom: 0px;
+    font-size: 20px;
+}
+
+.price1 h1 {
+    margin-top: 0px;
+}
+
+.price2 {
+    display: flex;
+    justify-content: center;
+}
+
+.pricelist {
+    margin: 50px;
+    padding: 20px;
+    border: 0px solid white;
+    background-color: white;
+    border-radius: 32px;
+    text-align: center;
+}
+
+.pricelist h1 {
+    padding: 10px;
+    color: blue;
+}
+
+.pricebtn1 {
+    background-color: white;
+    border: 1px solid blue;
+    border-radius: 32px;
+    padding: 10px 30px;
+}
+
+.pricebtn2 {
+    color: white;
+    border: none;
+    background-image: url(../../img/Rectangle\ 8@2x.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 8px 30px;
+    border-radius: 32px;
+}
+
+.footer {
+    position: relative;
+    margin-top: 100px;
+}
+
+.footer1 {
+    justify-content: center;
+    text-align: center;
+}
+
+.footer1 h7 {
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+input {
+    width: 400px;
+    padding: 15px 30px;
+    margin-right: 20px;
+    border: none;
+    font-size: 20px;
+    background-color: rgb(246, 247, 251);
+    opacity: 0.3;
+}
+
+
+.subbtn {
+    font-size: 20px;
+    background-image: url(../../img/Rectangle\ 8@2x.png);
+    background-size: cover;
+    border: none;
+    color: white;
+    padding: 15px 50px;
+    border-radius: 25px;
+}
+
+.footer2 {
+    padding-top: 50px;
+    padding-bottom: 100px;
+    background-color: blue;
+    color: white;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer2 div {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.footer2 a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+.footer2 img {
+    width: 20px;
+    height: 20px;
+    padding: 20px;
+}
+
+.stayintouch {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 0px;
+}
+
+.footicon {
+    display: flex;
+    margin-top: -30px;
+    padding: 0px;
+}
+
+.contact div {
+    display: flex;
+    align-items: top;
+    margin: 0px;
+}
