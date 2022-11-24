@@ -9,30 +9,41 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
         rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d6ceb9e7bd.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
+    <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Product</a>
+            <a href="#">Contact</a>
+        </div>
+    </div>
     <div class="menu">
         <div class="menu1"><img src="img/logo.png" width="55px">
             <h2>SupCar</h2>
         </div>
-        <div class="menu2">
-            <div><a href="">About</a> </div>
-            <div><a href="">Services</a> </div>
-            <div><a href="">Product</a> </div>
-            <div><a href="">Contact</a> </div>
+        <div class="menu2" id="myTopnav">
+            <a href="">About</a>
+            <a href="">Services</a>
+            <a href="">Product</a>
+            <a href="">Contact</a>
+            <a class="icon" onclick="openNav()"><i class="fa fa-bars"></i></a>
         </div>
     </div>
     <div class="header">
         <div class="head">
+            <div class="head2"><img id="r35" src="img/r35.png" width="777px"></div>
             <div class="head1">
                 <p class="redp">SUPER CAR AGENCY</p>
-                <h1>We're Help<br> To Import <br>Your Super Car</h1>
+                <h1>We're Help To Import <br>Your Super Car</h1>
                 <p>We are help to import the super car client admire from
-                    foreign country such as germany, japan, and etc.</p>
+                    foreign country such as germany, japan, and etc</p>
                 <a href=""><button class="button1">ABOUT US</button></a>
             </div>
-            <div class="head2"><img src="img/r35.png" width="777px"></div>
         </div>
     </div>
     <div class="flat">
@@ -68,18 +79,18 @@
     </div>
     <div class="product">
         <div class="container2">
+            <div><img src="img/I8.jpg" width="695px"></div>
             <div class="div1">
                 <h1 class="brownh1">BMW i8</h1>
                 <p class="brownp">Plug-in-hybrid sports car developed by BMW.</p>
                 <p class="p1">Launched in May 2018<br>
-                    Acceleration: 0-100km/h in 4.4 seconds.<br>
+                    Acceleration: 0-100km/h in 4.4 seconds<br>
                     Fuel efficiency: 2.1L/100km
                 </p>
                 <h1 class="price">Price: RM 1.31 Million</h1>
             </div>
-            <div><img src="img/I8.jpg" width="695px"></div>
         </div>
-        <div class="container2">
+        <div class="container3">
             <div><img src="img/svj.jpg" width="695px"></div>
             <div class="div1">
                 <h1 class="brownh1">Lamborghini Avendator SVJ</h1>
@@ -93,17 +104,17 @@
             </div>
         </div>
         <div class="container2">
+            <div><img src="img/evo.jpg" width="695px" height="495px"></div>
             <div class="div1">
                 <h1 class="brownh1">Ferrari FXX-K EVO</h1>
                 <p class="brownp">FXX-K EVO is a rear mid-engine F140 V12, rear <br>
-                    wheel drive.</p>
+                    wheel drive</p>
                 <p class="p1">Launched in 28 October 2017<br>
-                    Acceleration: 0-100km/h in 2.5 seconds.<br>
-                    Maximum power output of 1036bhp and 900nm.<br>
+                    Acceleration: 0-100km/h in 2.5 seconds<br>
+                    Maximum power output of 1036bhp and 900nm<br>
                 </p>
                 <h1 class="price">Price: RM 11.8 Million</h1>
             </div>
-            <div><img src="img/evo.jpg" width="695px" height="495px"></div>
         </div>
         <div class="discover"><a href=""><button class="button1">DISCOVER NOW</button></a>
         </div>
@@ -193,7 +204,7 @@
         </div>
         <div class="footer2">
             <div class="copyright"><a href="">
-                    <p class="brownp">Copyright © 2022 Laaqiq. All Rights Reserved.</p>
+                    <p class="p1">Copyright © 2022 Laaqiq. All Rights Reserved.</p>
                 </a></div>
             <div class="terms"><a href="">
                     <p class="brownp">Terms of Use</p>
@@ -202,6 +213,16 @@
                 </a></div>
         </div>
     </div>
+
+    <script>
+        function openNav() {
+            document.getElementById("myNav").style.width = "100%";
+        }
+
+        function closeNav() {
+            document.getElementById("myNav").style.width = "0%";
+        }
+    </script>
 </body>
 
 </html>
