@@ -8,6 +8,10 @@ p {
     font-size: 16px;
 }
 
+a {
+    text-decoration: none;
+}
+
 .button1 {
     background-color: #EF6D58;
     border-radius: 8px;
@@ -15,6 +19,7 @@ p {
     padding: 10px 30px;
     color: white;
     font-size: 14px;
+    cursor: pointer;
 }
 
 .button2 {
@@ -24,6 +29,7 @@ p {
     padding: 10px 30px;
     font-size: 14px;
     box-shadow: 0px 0px 5px grey;
+    cursor: pointer;
 }
 
 .header {
@@ -258,6 +264,7 @@ p {
     color: white;
     font-size: 14px;
     margin-right: 30px;
+    cursor: pointer;
 }
 
 .contact {
