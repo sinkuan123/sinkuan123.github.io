@@ -42,8 +42,6 @@ p {
 .menu {
     display: flex;
     justify-content: space-between;
-    position: sticky;
-    top: 0;
     background-color: #4402ff;
     color: white;
 }
@@ -94,6 +92,7 @@ p {
     display: flex;
     align-items: flex-end;
     padding-bottom: 50px;
+    width: 100%;
 }
 
 .flat {
@@ -107,7 +106,8 @@ p {
 
 .flat img {
     padding: 50px;
-    height: 106px;
+    width: 8%;
+    height: auto;
 }
 
 .container1 {
@@ -116,6 +116,10 @@ p {
     justify-content: center;
     align-items: center;
     padding: 50px;
+}
+
+.container1 img {
+    width: 90%;
 }
 
 .about {
@@ -171,29 +175,33 @@ p {
     background-color: #C5EAFF;
 }
 
+.product img {
+    width: 90%;
+}
+
 .container2 {
     direction: rtl;
     padding: 50px;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
     text-align: left;
 }
 
-.container2 .div1 {
-    padding: 100px;
-}
 
 
 .container3 {
     padding: 50px;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     text-align: left;
+    align-items: center;
 }
 
 .container3 .div1 {
-    padding: 100px;
+    margin-left: 50px;
 }
+
 
 .price {
     font-size: 30px;
@@ -346,7 +354,6 @@ p {
 }
 
 #r35 {
-    max-width: 777px;
     width: 100%;
     height: auto;
 }
@@ -400,7 +407,8 @@ p {
     }
 
     .flat img {
-        max-width: 120px;
+        width: 180px;
+        height: 130px;
     }
 
     .brownh1 {
