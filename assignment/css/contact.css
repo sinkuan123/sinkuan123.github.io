@@ -46,7 +46,6 @@ p {
     color: white;
 }
 
-
 .menu1 a {
     margin-left: 100px;
     display: flex;
@@ -69,6 +68,7 @@ p {
 .head {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .head1 {
@@ -90,60 +90,19 @@ p {
     margin-bottom: 20px;
 }
 
+.head1 h2 {
+    font-size: 40px;
+}
+
 .head2 {
-    display: flex;
-    align-items: flex-end;
-    padding-bottom: 50px;
+    flex: 1;
     width: 100%;
-}
-
-.flat {
-    display: flex;
-    justify-content: center;
-    padding-top: 50px;
     padding-bottom: 50px;
-    border-bottom: 3px solid #F3D1BF;
-    margin-bottom: 50px;
+    height: 50%;
 }
 
-.flat img {
-    padding: 50px;
-    height: 100px;
-}
-
-.container1 {
-    background-color: #C5EAFF;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 50px;
-}
-
-.container1 img {
+#r35 {
     width: 90%;
-}
-
-.about {
-    margin-left: 30px;
-}
-
-.brownh1 {
-    font-size: 56px;
-    color: #5C2000;
-    line-height: 64px;
-    margin-top: -10px;
-    margin-bottom: 0px;
-}
-
-.brownp {
-    font-size: 20px;
-    color: #5c2000;
-}
-
-.p1 {
-    color: #391400;
-    font-size: 16px;
-    line-height: 32px;
 }
 
 .data {
@@ -172,49 +131,74 @@ p {
     color: #5C2000;
 }
 
-.product {
-    margin-top: 50px;
+.container {
     background-color: #C5EAFF;
+    padding: 50px;
 }
 
-.product img {
+.container1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container1 div {
+    flex: 1;
+}
+
+.container1 img {
     width: 90%;
 }
 
-.container2 {
-    padding: 50px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+.about {
+    margin-left: 30px;
 }
 
-.container2 .div1 {
-    width: 50%;
+.brownh1 {
+    font-size: 56px;
+    color: #5C2000;
+    line-height: 64px;
+    margin-top: -10px;
+    margin-bottom: 0px;
 }
 
-
-
-.container3 {
-    padding: 50px;
-    display: flex;
-    justify-content: space-around;
-    text-align: left;
-    align-items: center;
+.brownp {
+    font-size: 20px;
+    color: #5c2000;
 }
 
-.container3 .div1 {
-    margin-left: 50px;
+.git {
+    background-color: #C5EAFF;
+    padding: 5%;
+    padding-bottom: 10%;
 }
 
-
-.price {
-    font-size: 30px;
-    color: #FF0000;
+.git h1 {
+    margin-bottom: 20px;
 }
 
-.discover {
-    text-align: center;
-    padding-bottom: 50px;
+.git input {
+    margin-top: 30px;
+}
+
+.git .subject {
+    margin-top: 30px;
+    width: 89%;
+}
+
+.git .fbutton {
+    display: block;
+    float: right;
+    margin-right: 11%;
+}
+
+.name {
+    padding: 10px;
+    width: 87%;
+    margin-right: 30px;
+    border: 2px solid#F3D1BF;
+    border-radius: 8px;
+    color: #391400;
 }
 
 .newsletter {
@@ -305,6 +289,26 @@ p {
     cursor: pointer;
 }
 
+
+.p1 {
+    color: #391400;
+    font-size: 16px;
+    line-height: 32px;
+}
+
+.container2 {
+    direction: rtl;
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: left;
+}
+
+.container2 div {
+    flex: 1;
+}
+
 .contact {
     display: flex;
     justify-content: center;
@@ -368,9 +372,93 @@ p {
     padding-right: 40px;
 }
 
-#r35 {
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0, 0, 0);
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
     width: 100%;
-    height: auto;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay a:hover,
+.overlay a:focus {
+    color: #f1f1f1;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+    .overlay a {
+        font-size: 20px
+    }
+
+    .overlay .closebtn {
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+    }
+}
+
+
+.menu2 a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.menu2 a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.menu2 a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+.menu2 .icon {
+    display: none;
+}
+
+@media screen and (max-width: 860px) {
+    .menu2 a {
+        display: none;
+    }
+
+    .menu2 a.icon {
+        float: right;
+        display: block;
+    }
 }
 
 @media screen and (max-width: 860px) {
@@ -617,94 +705,5 @@ p {
     .terms {
         justify-content: center;
         margin-right: 0px;
-    }
-}
-
-.overlay {
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: rgb(0, 0, 0);
-    overflow-x: hidden;
-    transition: 0.5s;
-}
-
-.overlay-content {
-    position: relative;
-    top: 25%;
-    width: 100%;
-    text-align: center;
-    margin-top: 30px;
-}
-
-.overlay a {
-    padding: 8px;
-    text-decoration: none;
-    font-size: 36px;
-    color: #818181;
-    display: block;
-    transition: 0.3s;
-}
-
-.overlay a:hover,
-.overlay a:focus {
-    color: #f1f1f1;
-}
-
-.overlay .closebtn {
-    position: absolute;
-    top: 20px;
-    right: 45px;
-    font-size: 60px;
-}
-
-@media screen and (max-height: 450px) {
-    .overlay a {
-        font-size: 20px
-    }
-
-    .overlay .closebtn {
-        font-size: 40px;
-        top: 15px;
-        right: 35px;
-    }
-}
-
-
-.menu2 a {
-    float: left;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-}
-
-.menu2 a:hover {
-    background-color: #ddd;
-    color: black;
-}
-
-.menu2 a.active {
-    background-color: #04AA6D;
-    color: white;
-}
-
-.menu2 .icon {
-    display: none;
-}
-
-@media screen and (max-width: 860px) {
-    .menu2 a {
-        display: none;
-    }
-
-    .menu2 a.icon {
-        float: right;
-        display: block;
     }
 }
