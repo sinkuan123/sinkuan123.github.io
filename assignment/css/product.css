@@ -46,6 +46,7 @@ p {
     color: white;
 }
 
+
 .menu1 a {
     margin-left: 100px;
     display: flex;
@@ -68,7 +69,6 @@ p {
 .head {
     display: flex;
     justify-content: space-between;
-    align-items: flex-end;
 }
 
 .head1 {
@@ -91,13 +91,65 @@ p {
 }
 
 .head2 {
-    width: 100%;
+    display: flex;
+    align-items: flex-end;
     padding-bottom: 50px;
-    height: 50%;
+    width: 100%;
 }
 
-#r35 {
-    width: 90%;
+.flat {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-bottom: 3px solid #F3D1BF;
+    margin-bottom: 50px;
+}
+
+.flat img {
+    height: 100px;
+}
+
+.container1 {
+    background-color: #C5EAFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+    padding: 2%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.container1 div {
+    flex: 1;
+}
+
+.container1 img {
+    width: 120%;
+}
+
+.about {
+    margin-left: 3%;
+}
+
+.brownh1 {
+    font-size: 56px;
+    color: #5C2000;
+    line-height: 64px;
+    margin-top: -10px;
+    margin-bottom: 0px;
+}
+
+.brownp {
+    font-size: 20px;
+    color: #5c2000;
+}
+
+.p1 {
+    color: #391400;
+    font-size: 16px;
+    line-height: 32px;
 }
 
 .data {
@@ -126,46 +178,14 @@ p {
     color: #5C2000;
 }
 
-.container {
+.product {
+    margin-top: 50px;
     background-color: #C5EAFF;
-    padding: 50px;
+    margin-bottom: 50px;
 }
 
-.container1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.container1 div {
-    flex: 1;
-}
-
-.container1 img {
+.product img {
     width: 90%;
-}
-
-.about {
-    margin-left: 30px;
-}
-
-.brownh1 {
-    font-size: 56px;
-    color: #5C2000;
-    line-height: 64px;
-    margin-top: -10px;
-    margin-bottom: 0px;
-}
-
-.brownp {
-    font-size: 20px;
-    color: #5c2000;
-}
-
-.p1 {
-    color: #391400;
-    font-size: 16px;
-    line-height: 32px;
 }
 
 .container2 {
@@ -173,15 +193,145 @@ p {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    text-align: left;
 }
 
 .container2 div {
-    flex: 1;
+    width: 50%;
 }
 
 .container2 img {
     width: 100%;
+}
+
+
+
+.container3 {
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+    align-items: center;
+}
+
+.container3 .div1 {
+    margin-left: 50px;
+}
+
+.container3 div {
+    width: 50%;
+}
+
+.container3 img {
+    width: 100%;
+    height: auto;
+}
+
+
+.price {
+    font-size: 30px;
+    color: #FF0000;
+}
+
+.discover {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.newsletter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+
+.newsletter div {
+    flex: 1;
+}
+
+.newsletter h1 {
+    color: #5c2000;
+    font-size: 40px;
+}
+
+.newsform {
+    display: flex;
+    width: 100%;
+}
+
+.email {
+    padding: 10px;
+    width: 100%;
+    margin-right: 30px;
+    border: 2px solid#F3D1BF;
+    border-radius: 8px;
+    color: #391400;
+}
+
+.map {
+    position: relative;
+}
+
+.form {
+    border: none;
+    background-color: white;
+    position: absolute;
+    left: 50px;
+    top: 15%;
+    padding: 20px;
+    text-align: right;
+    width: 20%;
+}
+
+.form h2 {
+    text-align: left;
+    color: #5c2000;
+    font-size: 24px;
+}
+
+.form input {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-content: right;
+}
+
+
+.femail {
+    padding: 10px;
+    width: 87%;
+    margin-right: 30px;
+    border: 2px solid#F3D1BF;
+    border-radius: 8px;
+    color: #391400;
+}
+
+.subject {
+    padding: 10px;
+    width: 95%;
+    margin-right: 30px;
+    border: 2px solid#F3D1BF;
+    border-radius: 8px;
+    color: #391400;
+}
+
+.message {
+    padding: 10px;
+    width: 87%;
+    margin-right: 30px;
+    border: 2px solid#F3D1BF;
+    border-radius: 8px;
+    color: #391400;
+    height: 50px;
+}
+
+.fbutton {
+    background-color: #EF6D58;
+    border-radius: 8px;
+    border: none;
+    padding: 10px 30px;
+    color: white;
+    font-size: 14px;
+    margin-right: 30px;
+    cursor: pointer;
 }
 
 .contact {
@@ -193,7 +343,7 @@ p {
 
 .contactbox {
     border: 3px solid #F3D1BF;
-    width: 391px;
+    width: 30%;
     padding: 30px;
 }
 
@@ -245,6 +395,268 @@ p {
 
 .terms p {
     padding-right: 40px;
+}
+
+#r35 {
+    width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width: 860px) {
+    .menu1 {
+        margin-left: 30px;
+    }
+
+    .menu1 a {
+        margin-left: 0;
+    }
+
+    .menu2 a {
+        margin-right: 30px;
+    }
+
+    .head {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .head1 {
+        order: 2;
+        padding-left: 40px;
+    }
+
+    .head2 {
+        order: 1;
+        width: 100%;
+        padding-bottom: 0;
+    }
+
+    #r35 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 680px;
+    }
+
+    .redp {
+        font-size: 16px;
+    }
+
+    .head1 h1 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .head1 p {
+        font-size: 16px;
+        line-height: 32px;
+    }
+
+    .flat {
+        width: 100%;
+        display: inline-block;
+        margin: auto;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    .flat img {
+        max-width: 180px;
+        max-height: 130px;
+        padding: 5%;
+    }
+
+    .brownh1 {
+        font-size: 30px;
+        line-height: 48px;
+    }
+
+    .brownp {
+        font-size: 15px;
+    }
+
+    .p1 {
+        font-size: 12px;
+    }
+
+    .container1 {
+        display: block;
+    }
+
+    .container1 img {
+        max-width: 800px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .about {
+        margin-left: 0px;
+    }
+
+    .product {
+        padding-bottom: 50px;
+    }
+
+    .container2 {
+        flex-direction: column;
+    }
+
+
+    .container2 img {
+        width: 100%;
+        height: auto;
+    }
+
+    .container2 .div1 {
+        order: 2;
+        padding: 0px;
+        margin-top: 50px;
+    }
+
+    .container2 div {
+        width: 100%;
+    }
+
+    .container3 {
+        display: block;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .container3 img {
+        width: 100%;
+        height: auto;
+    }
+
+    .container3 .div1 {
+        padding: 0px;
+        margin-top: 50px;
+        margin-left: 0;
+    }
+
+    .container3 div {
+        width: 100%;
+    }
+
+    .price {
+        font-size: 15px;
+    }
+
+    .newsletter {
+        display: block;
+        text-align: center;
+    }
+
+    .newsletter h1 {
+        color: #5c2000;
+        font-size: 40px;
+    }
+
+    .newsform {
+        display: block;
+    }
+
+    .email {
+        margin-bottom: 30px;
+        width: 70%;
+    }
+
+    .form {
+        position: absolute;
+        left: 20px;
+        top: 25%;
+        padding: 10px;
+    }
+
+    .form h2 {
+        font-size: 13px;
+    }
+
+    .form input {
+        margin-top: 1%;
+        margin-bottom: 1%;
+    }
+
+
+    .femail {
+        padding: 2%;
+        width: 93%;
+        border: 2px solid#F3D1BF;
+        height: auto;
+        font-size: 8px;
+    }
+
+    .subject {
+        padding: 2%;
+        width: 100%;
+        font-size: 8px;
+        border: 2px solid#F3D1BF;
+        border-radius: 8px;
+        color: #391400;
+        font-size: 8px;
+    }
+
+    .message {
+        padding: 2%;
+        width: 93%;
+        border: 2px solid#F3D1BF;
+        height: auto;
+        font-size: 8px;
+    }
+
+    .fbutton {
+        padding: 5px 10px;
+        font-size: 5px;
+        margin-right: 2%;
+    }
+
+    .contact {
+        display: block;
+        margin-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .contactbox {
+        width: 70%;
+        padding: 20px;
+        margin: auto;
+    }
+
+    .contactbox .brownp {
+        font-size: 20px;
+    }
+
+
+    .footer1 {
+        display: block;
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .footer1 div {
+        margin-bottom: 50px;
+    }
+
+    .icon {
+        display: block;
+    }
+
+    .footer2 {
+        display: block;
+        text-align: center;
+        padding-bottom: 30px;
+    }
+
+    .copyright {
+        margin-left: 0px;
+        font-size: 16px;
+    }
+
+    .terms {
+        justify-content: center;
+        margin-right: 0px;
+    }
 }
 
 .overlay {
@@ -333,254 +745,5 @@ p {
     .menu2 a.icon {
         float: right;
         display: block;
-    }
-}
-
-@media screen and (max-width: 860px) {
-    .menu1 {
-        margin-left: 30px;
-    }
-
-    .menu1 a {
-        margin-left: 0;
-    }
-
-    .menu2 a {
-        margin-right: 30px;
-    }
-
-    .head {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .head1 {
-        order: 2;
-        padding-left: 40px;
-    }
-
-    .head2 {
-        order: 1;
-        width: 100%;
-        padding-bottom: 0;
-    }
-
-    #r35 {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        max-width: 680px;
-    }
-
-    .redp {
-        font-size: 16px;
-    }
-
-    .head1 h1 {
-        font-size: 30px;
-        line-height: 40px;
-    }
-
-    .head1 p {
-        font-size: 16px;
-        line-height: 32px;
-    }
-
-    .flat {
-        display: inline-block;
-        text-align: center;
-    }
-
-    .flat img {
-        max-width: 180px;
-        max-height: 130px;
-    }
-
-    .brownh1 {
-        font-size: 30px;
-        line-height: 48px;
-    }
-
-    .brownp {
-        font-size: 15px;
-    }
-
-    .p1 {
-        font-size: 12px;
-    }
-
-    .container1 {
-        display: block;
-        padding: 50px;
-    }
-
-    .container1 img {
-        max-width: 800px;
-        width: 100%;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .about {
-        margin-left: 0px;
-        margin-top: 50px;
-    }
-
-
-    .data {
-        display: block;
-        margin-top: 50px;
-        padding-bottom: 50px;
-    }
-
-    .data div {
-        border: 3px solid #F3D1BF;
-        width: 70%;
-        padding: 30px;
-        text-align: center;
-        margin: auto;
-    }
-
-    .container2 {
-        flex-direction: column;
-    }
-
-
-    .container2 img {
-        width: 100%;
-    }
-
-    .container2 .div1 {
-        order: 2;
-        padding: 0px;
-        margin-top: 50px;
-        width: 100%;
-    }
-
-    .container3 {
-        display: block;
-        padding-top: 0;
-        padding-bottom: 0;
-    }
-
-    .container3 img {
-        width: 100%;
-        height: auto;
-    }
-
-    .container3 .div1 {
-        width: 100%;
-        padding: 0px;
-        margin-top: 50px;
-        margin-left: 0;
-
-    }
-
-    .price {
-        font-size: 15px;
-    }
-
-    .newsletter {
-        display: block;
-        text-align: center;
-    }
-
-    .newsletter h1 {
-        color: #5c2000;
-        font-size: 40px;
-    }
-
-    .email {
-        margin-bottom: 30px;
-    }
-
-    .form {
-        position: absolute;
-        left: 20px;
-        top: 25%;
-        padding: 10px;
-    }
-
-    .form h2 {
-        font-size: 13px;
-    }
-
-    .form input {
-        margin-top: 5px;
-        margin-bottom: 5px;
-        font-size: 8px;
-    }
-
-    .subject {
-        padding: 10px;
-        width: 193px;
-        font-size: 8px;
-        border: 2px solid#F3D1BF;
-        border-radius: 8px;
-        color: #391400;
-    }
-
-    .message {
-        padding: 10px;
-        width: 170px;
-        border: 2px solid#F3D1BF;
-        height: auto;
-    }
-
-    .fbutton {
-        padding: 5px 10px;
-        font-size: 4px;
-        cursor: pointer;
-    }
-
-    .form .email {
-        width: 170px;
-    }
-
-    .contact {
-        display: block;
-        margin-top: 30px;
-        padding-bottom: 30px;
-    }
-
-    .contactbox {
-        width: 70%;
-        padding: 20px;
-        margin: auto;
-    }
-
-    .contactbox .brownp {
-        font-size: 20px;
-    }
-
-
-    .footer1 {
-        display: block;
-        text-align: center;
-        padding-top: 20px;
-    }
-
-    .footer1 div {
-        margin-top: 50px;
-    }
-
-    .icon {
-        display: block;
-    }
-
-    .footer2 {
-        display: block;
-        text-align: center;
-        padding-bottom: 30px;
-    }
-
-    .copyright {
-        margin-left: 0px;
-        font-size: 16px;
-    }
-
-    .terms {
-        justify-content: center;
-        margin-right: 0px;
     }
 }

@@ -226,6 +226,10 @@ p {
     position: relative;
 }
 
+.map {
+    position: relative;
+}
+
 .form {
     border: none;
     background-color: white;
@@ -288,7 +292,6 @@ p {
     margin-right: 30px;
     cursor: pointer;
 }
-
 
 .p1 {
     color: #391400;
@@ -630,35 +633,41 @@ p {
     }
 
     .form input {
-        margin-top: 5px;
-        margin-bottom: 5px;
+        margin-top: 1%;
+        margin-bottom: 1%;
+    }
+
+
+    .femail {
+        padding: 2%;
+        width: 93%;
+        border: 2px solid#F3D1BF;
+        height: auto;
         font-size: 8px;
     }
 
     .subject {
-        padding: 10px;
-        width: 193px;
+        padding: 2%;
+        width: 100%;
         font-size: 8px;
         border: 2px solid#F3D1BF;
         border-radius: 8px;
         color: #391400;
+        font-size: 8px;
     }
 
     .message {
-        padding: 10px;
-        width: 170px;
+        padding: 2%;
+        width: 93%;
         border: 2px solid#F3D1BF;
         height: auto;
+        font-size: 8px;
     }
 
     .fbutton {
         padding: 5px 10px;
-        font-size: 4px;
-        cursor: pointer;
-    }
-
-    .form .email {
-        width: 170px;
+        font-size: 5px;
+        margin-right: 2%;
     }
 
     .contact {
@@ -678,7 +687,9 @@ p {
     }
 
 
+
     .footer1 {
+        padding-top: 20px;
         display: block;
         text-align: center;
     }

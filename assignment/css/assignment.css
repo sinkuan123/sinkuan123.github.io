@@ -99,7 +99,7 @@ p {
 
 .flat {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     padding-top: 50px;
     padding-bottom: 50px;
     border-bottom: 3px solid #F3D1BF;
@@ -107,7 +107,6 @@ p {
 }
 
 .flat img {
-    padding: 50px;
     height: 100px;
 }
 
@@ -116,15 +115,22 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 50px;
+    gap: 10%;
+    padding: 2%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.container1 div {
+    flex: 1;
 }
 
 .container1 img {
-    width: 90%;
+    width: 120%;
 }
 
 .about {
-    margin-left: 30px;
+    margin-left: 3%;
 }
 
 .brownh1 {
@@ -178,7 +184,7 @@ p {
 }
 
 .product img {
-    width: 90%;
+    width: 100%;
 }
 
 .container2 {
@@ -188,7 +194,7 @@ p {
     align-items: center;
 }
 
-.container2 .div1 {
+.container2 div {
     width: 50%;
 }
 
@@ -219,9 +225,13 @@ p {
 
 .newsletter {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     margin: 50px;
+}
+
+.newsletter div {
+    flex: 1;
 }
 
 .newsletter h1 {
@@ -229,9 +239,14 @@ p {
     font-size: 40px;
 }
 
+.newsform {
+    display: flex;
+    width: 100%;
+}
+
 .email {
     padding: 10px;
-    width: 370px;
+    width: 100%;
     margin-right: 30px;
     border: 2px solid#F3D1BF;
     border-radius: 8px;
@@ -314,7 +329,7 @@ p {
 
 .contactbox {
     border: 3px solid #F3D1BF;
-    width: 391px;
+    width: 30%;
     padding: 30px;
 }
 
@@ -424,11 +439,14 @@ p {
     }
 
     .flat {
+        width: 100%;
+        margin: auto;
         display: inline-block;
         text-align: center;
     }
 
     .flat img {
+        padding: 5%;
         max-width: 180px;
         max-height: 130px;
     }
@@ -486,6 +504,10 @@ p {
         height: auto;
     }
 
+    .container2 div {
+        width: 100%;
+    }
+
     .container2 .div1 {
         order: 2;
         padding: 0px;
@@ -526,8 +548,13 @@ p {
         font-size: 40px;
     }
 
+    .newsform {
+        display: block;
+    }
+
     .email {
         margin-bottom: 30px;
+        width: 70%;
     }
 
     .form {
@@ -542,35 +569,41 @@ p {
     }
 
     .form input {
-        margin-top: 5px;
-        margin-bottom: 5px;
+        margin-top: 1%;
+        margin-bottom: 1%;
+    }
+
+
+    .femail {
+        padding: 2%;
+        width: 93%;
+        border: 2px solid#F3D1BF;
+        height: auto;
         font-size: 8px;
     }
 
     .subject {
-        padding: 10px;
-        width: 193px;
+        padding: 2%;
+        width: 100%;
         font-size: 8px;
         border: 2px solid#F3D1BF;
         border-radius: 8px;
         color: #391400;
+        font-size: 8px;
     }
 
     .message {
-        padding: 10px;
-        width: 170px;
+        padding: 2%;
+        width: 93%;
         border: 2px solid#F3D1BF;
         height: auto;
+        font-size: 8px;
     }
 
     .fbutton {
         padding: 5px 10px;
-        font-size: 4px;
-        cursor: pointer;
-    }
-
-    .form .email {
-        width: 170px;
+        font-size: 5px;
+        margin-right: 2%;
     }
 
     .contact {
@@ -593,10 +626,11 @@ p {
     .footer1 {
         display: block;
         text-align: center;
+        padding-top: 10px;
     }
 
     .footer1 div {
-        margin-top: 50px;
+        margin-bottom: 50px;
     }
 
     .icon {
