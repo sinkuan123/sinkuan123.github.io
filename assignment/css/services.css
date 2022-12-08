@@ -413,6 +413,10 @@ p {
         font-size: 12px;
     }
 
+    .container img {
+        width: 80%;
+    }
+
     .container1 {
         display: block;
         padding-bottom: 50px;

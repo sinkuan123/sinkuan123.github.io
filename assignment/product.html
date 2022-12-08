@@ -3,7 +3,9 @@
 
 <head>
     <title>Product</title>
+    <script src="js/menu.js"></script>
     <link rel="stylesheet" href="css/product.css">
+    <link rel="stylesheet" href="css/headerfooter.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -55,7 +57,7 @@
         <img src="img/ferrari.png">
         <img src="img/bmw.png">
     </div>
-    <div>
+    <div class="cartype">
         <h1 class="brownh1">Recon Car</h1>
     </div>
     <div class="product">
@@ -111,7 +113,9 @@
             </div>
         </div>
     </div>
-    <h1 class="brownh1">Used Car</h1>
+    <div class="cartype">
+        <h1 class="brownh1">Used Car</h1>
+    </div>
     <div class="product">
         <div class="container2">
             <div class="div1">
@@ -180,9 +184,11 @@
                     <p class="brownp">See More</p>
                 </a>
             </div>
-            <div class="icon"><img src="img/facebook.jpg" width="48px" height="48px">
-                <img src="img/twiter.jpg" width="48px" height="48px">
-                <img src="img/instagram.jpg" width="48px" height="48px">
+            <div class="icon"><a href="https://www.facebook.com/eugene.lim.524934"><img src="img/facebook.jpg"
+                        width="48px" height="48px"></a>
+                <a href="https://twitter.com/twitter"><img src="img/twiter.jpg" width="48px" height="48px"></a>
+                <a href="https://www.instagram.com/sinkuan0415/"><img src="img/instagram.jpg" width="48px"
+                        height="48px"></a>
             </div>
         </div>
         <div class="footer2">
@@ -196,16 +202,6 @@
                 </a></div>
         </div>
     </div>
-
-    <script>
-        function openNav() {
-            document.getElementById("myNav").style.width = "100%";
-        }
-
-        function closeNav() {
-            document.getElementById("myNav").style.width = "0%";
-        }
-    </script>
 </body>
 
 </html>
