@@ -1,0 +1,33 @@
+.box {
+    border: #515585 35px solid;
+}
+
+.container1 {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.title-bottom-left {
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    font-size: 64px;
+}
+
+.text-center {
+    font-size: 32px;
+}
+
+@media screen and (max-width: 800px) {
+    .title-bottom-left {
+        font-size: 40px;
+    }
+
+    .text-center {
+        font-size: 24px;
+    }
+}

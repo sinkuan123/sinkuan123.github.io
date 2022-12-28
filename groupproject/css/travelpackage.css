@@ -1,0 +1,181 @@
+.head h1 {
+    position: absolute;
+    font-size: 64px;
+    bottom: 10%;
+    left: 10%;
+    color: white;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 1px;
+}
+
+.head img {
+    width: 100%;
+}
+
+.content {
+    background-color: #515585;
+    color: black;
+}
+
+
+.content1 {
+    padding: 5% 10%;
+}
+
+.content1 h2 {
+    margin: auto;
+    text-align: center;
+    font-size: 36px;
+}
+
+.content2 {
+    display: flex;
+    margin: auto;
+    padding-bottom: 5%;
+}
+
+.content2 img {
+    width: 100%;
+}
+
+.content2 div {
+    position: relative;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.penang {
+    position: absolute;
+    top: 85%;
+    left: 30%;
+    color: white;
+}
+
+.langkawi {
+    position: absolute;
+    top: 85%;
+    left: 28%;
+    color: white;
+}
+
+.sabah {
+    position: absolute;
+    top: 85%;
+    left: 38%;
+    color: white;
+}
+
+.rawa {
+    position: absolute;
+    top: 85%;
+    left: 22%;
+    color: white;
+}
+
+.simpadan {
+    position: absolute;
+    top: 85%;
+    left: 13%;
+    color: white;
+}
+
+.kukup {
+    position: absolute;
+    top: 85%;
+    left: 20%;
+    color: white;
+}
+
+.kinabalu {
+    position: absolute;
+    top: 85%;
+    left: 12%;
+    color: white;
+}
+
+.sekinchan {
+    position: absolute;
+    top: 85%;
+    left: 25%;
+    color: white;
+}
+
+.terrenganu {
+    position: absolute;
+    top: 85%;
+    left: 22%;
+    color: white;
+}
+
+.days {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: black;
+    color: white;
+}
+
+@media screen and (max-width:991px) {
+    .head h1 {
+        font-size: 40px;
+    }
+
+    .content1 h2 {
+        font-size: 28px;
+    }
+
+    .content1 p {
+        font-size: 24px;
+    }
+
+    .content2 {
+        flex-direction: column;
+        width: 100%;
+        padding-bottom: 0;
+    }
+
+    .content2 div {
+        width: 100%;
+        margin: auto;
+        margin-bottom: 10%;
+    }
+
+    .penang {
+        left: 35%;
+    }
+
+    .langkawi {
+        left: 35%;
+    }
+
+    .sabah {
+        left: 35%;
+    }
+
+    .rawa {
+        left: 30%;
+    }
+
+    .simpadan {
+        left: 25%;
+    }
+
+    .kukup {
+        left: 30%;
+    }
+
+    .kinabalu {
+        left: 25%;
+    }
+
+    .sekinchan {
+        left: 30%;
+    }
+
+    .terrenganu {
+        left: 30%;
+    }
+
+}

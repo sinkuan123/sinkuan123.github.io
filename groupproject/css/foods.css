@@ -1,0 +1,86 @@
+.head h1 {
+    position: absolute;
+    font-size: 64px;
+    bottom: 10%;
+    left: 10%;
+    color: white;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 1px;
+}
+
+.head img {
+    width: 100%;
+}
+
+.content1 {
+    background-color: rgba(70, 181, 209, 0.5);
+}
+
+.content2 {
+    background-color: rgba(70, 181, 209);
+}
+
+
+.content {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.content div {
+    width: 45%;
+}
+
+.content img {
+    width: 100%;
+}
+
+.content h2 {
+    font-size: 36px;
+}
+
+
+.place {
+    font-size: 44px;
+}
+
+@media screen and (max-width: 991px) {
+
+    .head h1 {
+        font-size: 40px;
+    }
+
+    .place {
+        font-size: 32px;
+    }
+
+    .content h2 {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .content p {
+        font-size: 24px;
+        padding-left: 5%;
+    }
+
+    .content {
+        flex-direction: column;
+    }
+
+    .content div {
+        width: 100%;
+    }
+
+    .text {
+        order: 2;
+    }
+
+    .sky {
+        order: 2;
+    }
+
+    .pic {
+        order: 1;
+    }
+}

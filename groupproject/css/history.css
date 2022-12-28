@@ -1,0 +1,32 @@
+.head h1 {
+    position: absolute;
+    font-size: 64px;
+    bottom: 10%;
+    left: 10%;
+    color: white;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 1px;
+}
+
+.head img {
+    width: 100%;
+}
+
+.content1 {
+    padding: 5% 10%;
+}
+
+.history2 {
+    width: 100%;
+}
+
+
+@media screen and (max-width:991px) {
+    .head h1 {
+        font-size: 40px;
+    }
+
+    .content1 p {
+        font-size: 24px;
+    }
+}

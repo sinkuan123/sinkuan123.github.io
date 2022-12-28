@@ -1,0 +1,27 @@
+h1 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 64px;
+}
+
+strong {
+    font-size: 32px;
+}
+
+.accordion-body {
+    font-size: 32px;
+}
+
+@media screen and (max-width: 991px) {
+    .text-uppercase {
+        font-size: 40px;
+    }
+
+    strong {
+        font-size: 24px;
+    }
+
+    .accordion-body {
+        font-size: 24px;
+    }
+}
