@@ -27,7 +27,7 @@ a:focus {
 
 .header a {
     color: white;
-    font-size: 32px;
+    font-size: 24px;
 }
 
 .header a:hover {
@@ -57,6 +57,16 @@ a:focus {
 
 .copyright {
     margin-left: 10%;
+}
+
+@media screen and (max-width:1200px) {
+    .header a {
+        font-size: 20px;
+    }
+
+    .footer a {
+        font-size: 20px;
+    }
 }
 
 @media screen and (max-width: 991px) {
