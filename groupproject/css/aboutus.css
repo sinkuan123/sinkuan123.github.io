@@ -12,12 +12,16 @@
     width: 50%;
 }
 
-h4 {
+.text-center {
     font-size: 36px;
 }
 
 li {
     font-size: 32px;
+}
+
+.pt-3 h4 {
+    font-size: 36px;
 }
 
 @media screen and (max-width: 800px) {
@@ -37,11 +41,20 @@ li {
         width: 100%;
     }
 
-    h4 {
+    .text-center {
         font-size: 28px;
     }
 
     li {
         font-size: 24px;
+    }
+
+    .pt-3 p {
+        font-size: 24px;
+    }
+
+
+    .pt-3 h4 {
+        font-size: 28px;
     }
 }
