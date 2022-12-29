@@ -1,5 +1,5 @@
 .top h1 {
-    top: 70%;
+    bottom: 10%;
     left: 10%;
     -webkit-text-stroke: 1.5px black;
 }
@@ -13,9 +13,6 @@
 }
 
 @media screen and (max-width: 800px) {
-    .top h1 {
-        top: 60%;
-    }
 
     .travel {
         flex-direction: column;

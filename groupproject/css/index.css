@@ -73,10 +73,6 @@
 }
 
 @media screen and (max-width: 800px) {
-    .home {
-        top: 60%;
-    }
-
     .about {
         flex-direction: column;
     }
