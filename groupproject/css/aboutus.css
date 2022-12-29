@@ -12,7 +12,18 @@
     width: 50%;
 }
 
+h4 {
+    font-size: 36px;
+}
+
+li {
+    font-size: 32px;
+}
+
 @media screen and (max-width: 800px) {
+    .top h1 {
+        font-size: 40px;
+    }
 
     .travel {
         flex-direction: column;
@@ -24,5 +35,13 @@
 
     .right {
         width: 100%;
+    }
+
+    h4 {
+        font-size: 28px;
+    }
+
+    li {
+        font-size: 24px;
     }
 }
