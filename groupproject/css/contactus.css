@@ -8,6 +8,7 @@
     color: white;
 }
 
+
 .title-bottom-left {
     position: absolute;
     bottom: 10%;
@@ -16,6 +17,7 @@
     margin-bottom: 20px;
     margin-left: 20px;
     font-size: 64px;
+    -webkit-text-stroke: 1.5px black;
 }
 
 .text-center {
