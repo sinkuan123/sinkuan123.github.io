@@ -1,25 +1,9 @@
-.head h1 {
-    position: absolute;
-    font-size: 64px;
-    bottom: 10%;
-    left: 10%;
-    color: white;
-    -webkit-text-stroke-color: black;
-    -webkit-text-stroke-width: 1.5px;
-}
-
 .head img {
     width: 100%;
 }
 
 .content1 {
     padding: 5% 10%;
-}
-
-.content1 h2 {
-    margin: auto;
-    text-align: center;
-    font-size: 36px;
 }
 
 .people {
@@ -42,24 +26,11 @@
     margin-right: 2%;
 }
 
-.ckk {
+.food {
     position: absolute;
     top: 85%;
-    left: 15%;
-    color: white;
-}
-
-.crb {
-    position: absolute;
-    top: 85%;
-    left: 10%;
-    color: white;
-}
-
-.bkt {
-    position: absolute;
-    top: 85%;
-    left: 25%;
+    width: 100%;
+    text-align: center;
     color: white;
 }
 
@@ -87,17 +58,5 @@
         width: 100%;
         margin: auto;
         margin-bottom: 10%;
-    }
-
-    .ckk {
-        left: 25%;
-    }
-
-    .crb {
-        left: 20%;
-    }
-
-    .bkt {
-        left: 30%;
     }
 }

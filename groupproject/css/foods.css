@@ -1,14 +1,4 @@
-.head h1 {
-    position: absolute;
-    font-size: 64px;
-    bottom: 10%;
-    left: 10%;
-    color: white;
-    -webkit-text-stroke-color: black;
-    -webkit-text-stroke-width: 1.5px;
-}
-
-.head img {
+img {
     width: 100%;
 }
 
@@ -31,36 +21,12 @@
     width: 45%;
 }
 
-.content img {
-    width: 100%;
-}
-
-.content h2 {
-    font-size: 36px;
-}
-
-
-.place {
-    font-size: 44px;
-}
-
 @media screen and (max-width: 991px) {
-
-    .head h1 {
-        font-size: 40px;
-    }
-
-    .place {
-        font-size: 32px;
-    }
-
     .content h2 {
-        font-size: 28px;
         text-align: center;
     }
 
     .content p {
-        font-size: 24px;
         padding-left: 5%;
     }
 

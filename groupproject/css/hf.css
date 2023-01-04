@@ -7,6 +7,10 @@ h2 {
     font-size: 32px !important;
 }
 
+h4 {
+    font-size: 26px !important;
+}
+
 p {
     font-size: 20px !important;
 }
@@ -33,6 +37,15 @@ a:focus {
 
 .header a:hover {
     color: wheat;
+}
+
+.head h1 {
+    font-size: 64px;
+    bottom: 10%;
+    left: 10%;
+    color: white;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 1.5px;
 }
 
 .footer {
@@ -75,8 +88,20 @@ a:focus {
 }
 
 @media screen and (max-width: 992px) {
+    .head h1 {
+        font-size: 40px !important;
+    }
+
+    h1 {
+        font-size: 40px !important;
+    }
+
     h2 {
         font-size: 24px !important;
+    }
+
+    h4 {
+        font-size: 20px !important;
     }
 
     p {
