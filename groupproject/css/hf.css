@@ -1,13 +1,14 @@
 h1 {
     font-size: 64px;
+    font-weight: bold;
 }
 
 h2 {
-    font-size: 36px;
+    font-size: 32px !important;
 }
 
 p {
-    font-size: 32px;
+    font-size: 20px !important;
 }
 
 .dropdown-menu,
@@ -74,6 +75,14 @@ a:focus {
 }
 
 @media screen and (max-width: 992px) {
+    h2 {
+        font-size: 24px !important;
+    }
+
+    p {
+        font-size: 12px !important;
+    }
+
     .navbar-brand img {
         width: 50%;
     }
