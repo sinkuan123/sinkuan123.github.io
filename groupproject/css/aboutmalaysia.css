@@ -1,5 +1,9 @@
-.head img {
+img {
     width: 100%;
+}
+
+.culture div {
+    width: 45%;
 }
 
 .content1 {
@@ -35,6 +39,9 @@
 }
 
 @media screen and (max-width:991px) {
+    .d-flex {
+        flex-direction: column;
+    }
 
     .head h1 {
         font-size: 40px;
