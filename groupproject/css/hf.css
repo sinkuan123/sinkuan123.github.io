@@ -110,4 +110,16 @@ a:focus {
     h1 {
         font-size: 40px !important;
     }
+
+    h2 {
+        font-size: 26px !important;
+    }
+
+    h4 {
+        font-size: 22px !important;
+    }
+
+    p {
+        font-size: 16px !important;
+    }
 }
