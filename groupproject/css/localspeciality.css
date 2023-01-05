@@ -21,7 +21,7 @@ img {
 }
 
 .place {
-    font-size: 44px;
+    padding: 2%;
 }
 
 @media screen and (max-width: 991px) {

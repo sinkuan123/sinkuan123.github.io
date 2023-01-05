@@ -21,6 +21,10 @@ img {
     width: 45%;
 }
 
+.place {
+    padding: 2%;
+}
+
 @media screen and (max-width: 991px) {
     .content h2 {
         text-align: center;
