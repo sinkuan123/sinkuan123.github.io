@@ -1,9 +1,13 @@
+img {
+    width: 100%;
+}
+
 .left {
-    width: 50%;
+    width: 45%;
 }
 
 .right {
-    width: 50%;
+    width: 45%;
 }
 
 li {
