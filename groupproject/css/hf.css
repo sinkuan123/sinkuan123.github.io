@@ -88,25 +88,6 @@ a:focus {
 }
 
 @media screen and (max-width: 992px) {
-    .head h1 {
-        font-size: 40px !important;
-    }
-
-    h1 {
-        font-size: 40px !important;
-    }
-
-    h2 {
-        font-size: 24px !important;
-    }
-
-    h4 {
-        font-size: 20px !important;
-    }
-
-    p {
-        font-size: 12px !important;
-    }
 
     .navbar-brand img {
         width: 50%;
@@ -134,5 +115,28 @@ a:focus {
     .copyright {
         margin-left: 5%;
         padding-bottom: 2%;
+    }
+}
+
+@media screen and (max-width:600px) {
+
+    .head h1 {
+        font-size: 40px !important;
+    }
+
+    h1 {
+        font-size: 40px !important;
+    }
+
+    h2 {
+        font-size: 24px !important;
+    }
+
+    h4 {
+        font-size: 20px !important;
+    }
+
+    p {
+        font-size: 12px !important;
     }
 }
