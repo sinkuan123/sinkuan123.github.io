@@ -106,4 +106,8 @@ a:focus {
         margin-left: 5%;
         padding-bottom: 2%;
     }
+
+    h1 {
+        font-size: 40px !important;
+    }
 }

@@ -6,6 +6,10 @@ img {
     width: 45%;
 }
 
+.history {
+    width: 60% !important;
+}
+
 .content1 {
     padding: 5% 10%;
 }
@@ -43,18 +47,6 @@ img {
         flex-direction: column;
     }
 
-    .head h1 {
-        font-size: 40px;
-    }
-
-    .content1 h2 {
-        font-size: 28px;
-    }
-
-    .content1 p {
-        font-size: 24px;
-    }
-
     .content2 {
         flex-direction: column;
         width: 100%;
@@ -65,5 +57,19 @@ img {
         width: 100%;
         margin: auto;
         margin-bottom: 10%;
+    }
+
+    .culture div {
+        width: 100%;
+    }
+
+    .history1 {
+        order: 2;
+        width: 100%;
+    }
+
+    .history2 {
+        order: 1;
+        width: 100%;
     }
 }
