@@ -10,3 +10,13 @@
 .contact {
     color: black;
 }
+
+@media screen and (max-width:992px) {
+    .contactway {
+        flex-direction: column;
+    }
+
+    .contactway div {
+        width: 100%;
+    }
+}
