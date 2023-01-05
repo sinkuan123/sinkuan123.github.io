@@ -35,6 +35,11 @@
         text-align: center;
     }
 
+    .content h4 {
+        padding-left: 5%;
+        padding-top: 5%;
+    }
+
     .content p {
         padding-left: 5%;
     }
