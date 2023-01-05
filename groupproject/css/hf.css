@@ -77,16 +77,6 @@ a:focus {
     margin-left: 10%;
 }
 
-@media screen and (max-width:1200px) {
-    .header a {
-        font-size: 20px;
-    }
-
-    .footer1 p {
-        font-size: 20px;
-    }
-}
-
 @media screen and (max-width: 992px) {
 
     .navbar-brand img {
@@ -115,28 +105,5 @@ a:focus {
     .copyright {
         margin-left: 5%;
         padding-bottom: 2%;
-    }
-}
-
-@media screen and (max-width:600px) {
-
-    .head h1 {
-        font-size: 40px !important;
-    }
-
-    h1 {
-        font-size: 40px !important;
-    }
-
-    h2 {
-        font-size: 24px !important;
-    }
-
-    h4 {
-        font-size: 20px !important;
-    }
-
-    p {
-        font-size: 12px !important;
     }
 }
