@@ -27,11 +27,3 @@ li {
         width: 100%;
     }
 }
-
-@media screen and (max-width:600px) {
-
-
-    li {
-        font-size: 12px;
-    }
-}
